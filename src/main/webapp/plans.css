@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body{
+	background-color:lightcyan;
+	font-family:"Brush Script MT",cursive;
+}
+#r{
+	position:absolute;
+	top:15%;
+	left:34%;
+}
+textarea{
+	border-style:double;
+	border-color:black;
+	background-color:orange;
+}
+#aa{
+	border-style:double;
+	border-color:black;
+	padding:5px;
+	
+}
+#w{
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	padding:14px;
+	border-radius:20%;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	left:0%;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+	
+}

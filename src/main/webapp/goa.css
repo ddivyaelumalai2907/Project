@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("goa1.jpg");
+	background-repeat:no-repeat;
+	background-size:1530px 700px;
+	font-family:"Brush Script MT",cursive;
+}
+.wrapper{
+	height:440px;
+	width:710px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:25%;
+	overflow:hidden;
+}
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:30%;
+	padding:19px;
+	font-family:"Brush Script MT",cursive;
+	border-style:dotted solid black;
+	border-width:2px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+	
+}
+h1{
+	position:absolute;
+	left:38%;
+}
+p{
+		position:absolute;
+	top:13%;
+	left:3%;
+	font-size:19px;
+}

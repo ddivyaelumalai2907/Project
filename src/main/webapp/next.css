@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+body{
+	background-color:lightcyan;
+	font-family:"Brush Script MT",cursive;	
+}
+img{
+	border-radius:50%;
+	border-style:dotted;
+	border-color:black;
+}
+.box{
+	position:absolute;
+	left:39%;
+	top:53%;
+}
+#a{
+	position:absolute;
+	left:35%;
+	top:18%;
+}
+#a1{
+	position:absolute;
+	left:35%;
+	top:40%;
+	
+}
+#a2{
+	position:absolute;
+	left:37%;
+	top:40%;
+	
+}
+#b{
+	position:absolute;
+	left:45%;
+	top:18%;
+}
+#b1{
+	position:absolute;
+	left:45%;
+	top:40%;
+}
+#b2{
+	position:absolute;
+    left:47%;
+	top:40%;	
+}
+#c{
+	position:absolute;
+	left:55%;
+	top:18%;
+}
+#c1{
+	position:absolute;
+    left:55%;
+	top:40%;	
+}
+#c2{
+	position:absolute;
+	left:57%;
+	top:40%;
+	
+}
+#w{
+	position:absolute;
+	left:38%;
+	top:4%;
+}
+button{
+	padding:15px 20px;
+	border-radius:15px;
+	position:absolute;
+	top:88%;
+	left:36%;
+	background-color:black;
+	color:gold;
+}	
+#t{
+	position:absolute;
+	padding:5px;
+}	
+
+#s{
+	position :absolute;
+	top:7%;
+	left:16%;
+	color:white;
+}
+
+.f{
+	position :absolute;
+	top:50%;
+	left:34%;
+	height:20%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:#400040;
+	padding:7%;
+}

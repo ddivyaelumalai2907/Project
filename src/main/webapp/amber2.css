@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("amer.jpg");
+	background-repeat:no-repeat;
+	background-size:1412px 650px;
+	font:bold;
+}
+
+
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:5px;
+	padding:15px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:15px;
+	border-radius:5px;
+	
+}

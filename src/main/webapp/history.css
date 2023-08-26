@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("h2.jpg");
+	background-repeat:no-repeat;
+	background-size:1530px 900px;
+}
+#wor{
+	position:absolute;
+	left:10%;
+	font-family:"Brush Script MT",cursive;
+}
+#a{
+	position:absolute;
+	left:5%;
+	font-family:"Brush Script MT",cursive;
+	
+}
+a{
+color:#800080;	
+}
+#d{
+	position:absolute;
+	top:240%;
+	
+}
+
+
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:30%;
+	padding:19px;
+	font-family:"Brush Script MT",cursive;
+	border-style:dotted solid black;
+	border-width:2px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+	
+}
+.wrapper{
+	height:500px;
+	width:900px;
+	background:inherit;
+	border-radius:15px;
+	border-color:black;
+	border:10px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:10%;
+	overflow:hidden;
+}

@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+	background-color:lightcyan;
+	font-family:"Brush Script MT",cursive;	
+}
+#w{
+	position:absolute;
+	left:20%;
+	top:5%;
+}
+#w1{
+	position:absolute;
+	left:33%;
+	top:10%;
+	
+}
+#c{
+	position:absolute;
+	left:40%;
+	top:20%;
+	border-color:black;
+	border-style:dotted;	
+		
+}
+#d{
+	position:absolute;
+	left:40%;
+	top:60%;
+	border-color:black;
+	border-style:dotted;	
+	
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+	
+}

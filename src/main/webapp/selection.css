@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("tour1.jpg");
+	background-repeat:no-repeat ;
+	background-size:1500px 800px;
+	animation-name:ex;
+	animation-duration:7s;
+	animation-direction:alternate;
+	animation-iteration-count:10;
+	font-family:"Brush Script MT",cursive;
+}
+@keyframes ex{
+0%{background-image:url("tour1.jpg");}
+10%{background-image:url("dubai.jpg");}
+ 50%{background-image:url("kerala1.jpg");}
+ 80%{background-image:url("goa1.jpg");}
+	100%{background-image:url("a3.jpg");}
+}
+img{
+	border-radius:50%;
+}
+.b{
+	
+
+	position:absolute;
+	left:10%;
+	right:70%;
+	top:20%;
+	border-style:solid black;
+	border-radius:50%;
+	transition:width 2s,height 2s,transform 2s;
+}
+.b:hover{
+	border-color:black;
+	background-color:black;
+	transform:rotate(35deg);
+}
+#t{
+	position:absolute;
+	left:13%;
+	top:15%;
+	right:70%;
+	color:#000000;
+}
+.k{
+
+	position:absolute;
+	left:48%;
+	top:19%;
+	right:40%;
+	border-style:solid black;
+	border-radius:50%;
+	transition:width 2s,height 2s,transform 2s;	
+}
+.k:hover{
+	border-color:black;
+	background-color:black;
+	transform:rotate(35deg);
+}	
+#y{
+	
+	position:absolute;
+	left:50%;
+	top:15%;
+	right:70%;
+	color:#000000;
+}
+.u{
+	
+	position:absolute;
+	right:30%;
+	left:28%;
+	top:19%;
+	border-style:solid black;
+	border-radius:50%;
+	transition:width 2s,height 2s,transform 2s;
+
+}
+.u:hover
+{
+	border-color:black;
+	background-color:black;
+	transform:rotate(35deg);
+}	
+	
+#k{
+	position:absolute;
+	left:30%;
+	top:15%;
+	right:65%;
+	color:#000000;
+}
+
+.p{
+	position:absolute;
+	right:28%;
+	left:67%;
+	top:20%;
+	border-style:solid black;
+	border-radius:50%;
+	transition:width 2s,height 2s,transform 2s;
+}
+.p:hover
+{
+	border-color:black;
+	background-color:black;
+	transform:rotate(40deg);
+}	
+#l{
+	position:absolute;
+	right:28%;
+	left:68%;
+	top:16%;
+	color:#000000;
+}
+
+p{
+	color:#000000;
+}
+.n{
+	position:absolute;
+	right:85%;
+	left:20%;
+	top:50%;
+	border-style:solid black;
+	border-radius:50%;
+	padding:48px;
+	transition:width 2s,height 2s,transform 2s;
+}
+.n:hover
+{
+	border-color:black;
+	background-color:darkkhaki;
+	transform:rotate(20deg);
+}	
+.f{
+	
+	position:absolute;
+	right:85%;
+	left:60%;
+	top:50%;
+	border-style:solid black;
+	border-radius:50%;
+	padding:48px;
+	transition:width 2s,height 2s,transform 2s;
+}
+.f:hover
+{
+	border-color:black;
+	background-color:darkkhaki;
+	transform:rotate(20deg);
+}	

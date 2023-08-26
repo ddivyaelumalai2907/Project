@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("tour1.jpg");
+	background-repeat:no-repeat;
+	background-size:1530px 900px;
+	animation-name:y;
+	animation-duration:7s;
+	animation-direction:alternate;
+	animation-iteration-count:3;
+	animation-delay:2s;
+	font-family:"Brush Script MT",cursive;
+}
+
+@keyframes y{
+	0%{background-image:url("tour1.jpg");}
+10%{background-image:url("dubai.jpg");}
+ 50%{background-image:url("kerala1.jpg");}
+ 80%{background-image:url("goa1.jpg");}
+	100%{background-image:url("a3.jpg");}
+}
+.box{
+	position:absolute;
+	top:190px;
+	left:35%;
+	opacity:0.7;
+	margin:2px;
+	background-color:white;
+	padding:50px;
+}
+.r{
+	border-radius:12px;
+	border-color:35px  solid black;
+	position:absolute;
+	padding:20px 25px;
+	left:35%;
+	top:85%;
+}
+.r:hover{
+	border-color:black;
+	background-color:gray;
+	
+}
+
+.l{
+	border-radius:12px;
+	border-color:35px  solid black;
+	position:absolute;
+	padding:20px 25px;
+	left:40%;
+	top:85%;
+}
+.l:hover{
+	border-color:black;
+	background-color:gray;
+	
+}

@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+body{
+background-image:url("roadtrip.jpg");
+	background-repeat:no-repeat;
+	background-size:1580px 900px;
+	font-family:"Brush Script MT",cursive;
+}
+.w1{
+	height:190px;
+	width:350px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:8%;
+	top:15%;
+	overflow:hidden;
+}
+.w2{
+	height:190px;
+	width:350px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:36%;
+	top:15%;
+	overflow:hidden;
+}
+.w3{
+	height:190px;
+	width:350px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:64%;
+	top:15%;
+	overflow:hidden;
+}
+.w4{
+	height:190px;
+	width:350px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:36%;
+	top:47%;
+	overflow:hidden;
+}
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:30%;
+	padding:19px;
+	font-family:"Brush Script MT",cursive;
+	border-style:dotted solid black;
+	border-width:2px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+}
+h3{
+	position:absolute;
+	left:10%;
+	
+}
+p{
+	position:absolute;
+	top:25%;
+	left:10%;
+	
+}

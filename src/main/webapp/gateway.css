@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{
+	background-image:url("gateway1.jpg");
+	background-repeat:no-repeat;
+	background-size:1412px 650px;
+	font:bold;
+	font-family:"Brush Script MT",cursive;
+}
+p{
+	font-family:"Brush Script MT",cursive;
+}
+.wrapper{
+	height:550px;
+	width:675px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:10px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:0%;
+	overflow:hidden;
+
+}
+.w2{
+    height:400px;
+	width:450px;
+	background:rgba(240,240,240,0.3);
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:5%;
+	overflow:hidden;
+}
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:30%;
+	padding:19px;
+	font-family:"Brush Script MT",cursive;
+	border-style:dotted solid black;
+	border-width:2px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+	
+}

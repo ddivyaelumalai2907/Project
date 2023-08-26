@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("tour1.jpg");
+	background-repeat:no-repeat ;
+	background-size:1500px 800px;
+	animation-name:example;
+	animation-duration:7s;
+	animation-direction:alternate;
+	animation-iteration-count:10;
+	font-family:"Brush Script MT",cursive;
+}
+@keyframes example{
+0%{background-image:url("tour1.jpg");}
+10%{background-image:url("dubai.jpg");}
+ 50%{background-image:url("kerala1.jpg");}
+ 80%{background-image:url("goa1.jpg");}
+	100%{background-image:url("a3.jpg");}
+}
+h1{
+	position:absolute;
+	left:40%;
+	top:90px;
+}
+#w{
+	font-style:Segoe UI Black;
+	position:absolute;
+	top:190px;
+	left:8%;
+	font-size:19px;
+}
+#s{
+	font-style:Bahnschrift SemiBold SemiConden;
+	position:absolute;
+	top:280px;
+	left:10%;
+	font-size:19px;
+	
+}
+
+
+#b{
+	border-radius:12px;
+	border-color:35px  solid black;
+	position:absolute;
+	left:25%;
+	top:390px;
+	padding:20px;
+	font-family:"Brush Script MT",cursive;
+}
+#b:hover{
+	border-color:black;
+	background-color:gray;
+	
+}
+.r{
+	border-radius:12px;
+	border-color:35px  solid black;
+	position:absolute;
+	left:55%;
+	top:390px;
+	padding:20px 25px;
+	font-family:"Brush Script MT",cursive;
+	
+}
+.r:hover{
+	border-color:black;
+	background-color:gray;
+	
+}
+
+#o{
+	border-radius:12px;
+	position:absolute;
+	top:500px;
+	left:15%;
+
+}
+.wrapper{
+	height:550px;
+	width:940px;
+	background:rgba(245,245,245,0);
+	border-radius:10px;
+	border-color:opaqe;
+	border:300px  rgba(255,255,255,0);
+	position:absolute;
+	left:15%;
+	top:10%;
+	box-shadow:0 2px 15px 0;
+	overflow:hidden;
+}

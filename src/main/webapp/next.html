@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>People</title>
+<link href="next.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<p id="w"><u><i>PLEASE SELECT THE NUMBER OF PEOPLE</i></u></p>
+<img src="s1.jpg" width=7% height=20% id="a"><br>
+<input id="a1" type="checkbox" ><label id="a2">SINGLE</label>
+<img src="fd1.jpg" width=7% height=20% id="b"><br>
+<input id="b1" type="checkbox" ><label id="b2">FRIENDS</label>
+<img src="f1.png" width=7% height=20% id="c"><br>
+<input id="c1" type="checkbox"><label id="c2">FAMILY</label>
+
+<div class=f>
+<form id=s action="Status" method="post">
+<p><b><i>Enter the details to conform your booking </i></b></p>
+Username <input type="text" name="name" required><br><br>
+Password <input type="password" name="pass" required><br><br>
+Contact number <input type="number" name="num" pattern="[0-9]{10}"   required><br><br>
+<label>Enter booked</label> <input type="text" placeholder="booked" name="status" required> <br><br><br>
+<button onclick="Status.java">DONE</button>
+</form>
+</div>
+</body>
+</html>

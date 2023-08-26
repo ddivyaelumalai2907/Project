@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+body{
+	background-color:lightcyan;
+	font-family:"Brush Script MT",cursive;	
+}
+.box{
+	position:absolute;
+	left:35%;
+	right:35%;
+	top:20%;
+	border-color:black;
+	border-style:double;
+	padding:35px;
+}
+button{
+	position:absolute;
+	left:30%;
+	top:90%;
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+}

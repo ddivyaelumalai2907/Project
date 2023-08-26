@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("roadt.jpg");
+	background-repeat:no-repeat;
+	background-size:1512px 800px;
+	font:bold;
+}
+p{
+	font-family:"Brush Script MT",cursive;
+}
+.wrapper{
+	height:500px;
+	width:750px;
+	background:inherit;
+	border-radius:15px;
+	border-color:black;
+	border:30px  rgba(255,255,255,0.2);
+	position:absolute;
+	left:21%;
+	top:10%;
+	overflow:hidden;
+}
+#b{
+	position:absolute;
+	left:90%;
+	top:85%;
+	background-color:gold;
+	border-radius:30%;
+	padding:19px;
+	font-family:"Brush Script MT",cursive;
+	border-style:dotted solid black;
+	border-width:2px;
+}
+#e{
+	background-color:gold;
+	padding:15px;
+	border-radius:5px;
+	position:absolute;
+	top:85%;
+	padding:19px;
+	border-radius:30%;
+	font-family:"Brush Script MT",cursive;
+}
+/*.box{
+	position:absolute;
+	top:150px;
+	left:35%;
+	opacity:1;
+	margin:2px;
+	padding:20px;
+}*/
+#h{
+	position:absolute;
+	top:200px;
+	left:260px;
+	font-size:20px;	
+}
+a{
+	color:#ffff00;
+}
